@@ -10,9 +10,9 @@ This repository holds the build tools needed to build the Brave desktop browser 
   - [brave-core](https://github.com/brave/brave-core)
     - Mounted at `src/brave`.
     - Maintains patches for 3rd party Chromium code.
-  - [adblock-rust](https://github.com/brave/adblock-rust)
+  - [adblock-rust](https://github.com/ArminScoins/adblock-rust)
     - Implements Brave's ad-block engine.
-    - Linked through [brave/adblock-rust-ffi](https://github.com/brave/brave-core/tree/master/components/adblock_rust_ffi).
+    - Linked through [brave/adblock-rust-ffi](https://github.com/ArminScoins/brave-core/tree/master/components/adblock_rust_ffi).
 
 ## Downloads
 
@@ -22,7 +22,7 @@ You can [visit our website](https://brave.com/download) to get the latest stable
 
 Please see the [contributing guidelines](./CONTRIBUTING.md).
 
-Our [Wiki](https://github.com/brave/brave-browser/wiki) also has some useful technical information.
+Our [Wiki](https://github.com/ArminScoins/brave-browser/wiki) also has some useful technical information.
 
 ## Community
 

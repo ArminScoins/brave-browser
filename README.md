@@ -7,12 +7,12 @@ This repository holds the build tools needed to build the Brave desktop browser 
   - [Chromium](https://chromium.googlesource.com/chromium/src.git)
     - Fetches code via `depot_tools`.
     - Sets the branch for Chromium (ex: 65.0.3325.181).
-  - [brave-core](https://github.com/brave/brave-core)
+  - [brave-core](https://github.com/ArminScoins/brave-core)
     - Mounted at `src/brave`.
     - Maintains patches for 3rd party Chromium code.
-  - [adblock-rust](https://github.com/brave/adblock-rust)
+  - [adblock-rust](https://github.com/ArminScoins/adblock-rust)
     - Implements Brave's ad-block engine.
-    - Linked through [brave/adblock-rust-ffi](https://github.com/brave/brave-core/tree/master/components/adblock_rust_ffi).
+    - Linked through [brave/adblock-rust-ffi](https://github.com/ArminScoins/brave-core/tree/master/components/adblock_rust_ffi).
 
 ## Downloads
 
